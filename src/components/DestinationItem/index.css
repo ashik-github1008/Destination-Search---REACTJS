@@ -1,0 +1,36 @@
+/* Write your CSS here */
+
+.destination-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 42px;
+}
+
+@media (min-width: 768px) {
+  .destination-card {
+    margin-right: 24px;
+  }
+}
+
+.img {
+  width: 280px;
+}
+
+@media (min-width: 768px) {
+  .img {
+    width: 220px;
+  }
+}
+
+.dest-name {
+  color: #000000;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+  .dest-name {
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,101 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.destination-cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+
+@media (min-width: 768px) {
+  .destination-cards-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+/* .img {
+  width: 280px;
+}
+
+@media (min-width: 768px) {
+  .img {
+    width: 220px;
+  }
+}
+
+.destination-card {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 42px;
+}
+
+@media (min-width: 768px) {
+  .destination-card {
+    margin-right: 24px;
+  }
+} */
+
+.heading {
+  color: #0f172a;
+  font-family: 'Roboto';
+  font-size: 54px;
+}
+
+/* .input-container {
+  background-color: #f1f5f9;
+  border-radius: 4px;
+} */
+
+.input-container {
+  background-color: #f1f5f9;
+  border-width: 0px;
+  padding: 8px;
+  border-radius: 8px;
+  width: 325px;
+  /* background-image: url('https://assets.ccbp.in/frontend/react-js/destinations-search-icon-img.png '); */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+::placeholder {
+  font-size: 22px;
+  font-family: 'Roboto';
+}
+
+/* .dest-name {
+  color: #000000;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+  .dest-name {
+    font-size: 23px;
+  }
+} */
+
+.icon {
+  width: 46px;
+  height: 46px;
+}
+
+.input {
+  border: none;
+  background-color: transparent;
+  font-size: 20px;
+  color: #252627;
+  padding: 4px;
+  font-weight: 500;
+  outline: none;
+}
